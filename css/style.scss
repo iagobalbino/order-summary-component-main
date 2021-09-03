@@ -1,0 +1,78 @@
+// Colors
+
+// Primary
+$paleBlue: hsl(225, 100%, 94%);
+$brightBlue: hsl(245, 75%, 52%);
+
+$veryPaleBlue: hsl(225, 100%, 98%);
+$DesaturedBlue: hsl(224, 23%, 55%);
+$darkBlue: hsl(223, 47%, 23%);
+
+// Fonts
+$redHat: "Red Hat Display", sans-serif;
+
+body {
+  font-family: $redHat;
+}
+
+.container {
+  height: 100vh;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 400px;
+  width: 250px;
+  // border: #000 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+
+  .card-top {
+    height: 30%;
+    background-image: url(../images/illustration-hero.svg);
+    background-size: cover;
+  }
+
+  .card-bottom {
+    padding: 0 10%;
+  }
+}
+
+.summary {
+  padding-top: 10%;
+
+  h1 {
+    font-weight: 900;
+    margin-bottom: 5%;
+  }
+
+  p {
+    font-size: 10px;
+    color: #878ea1;
+    margin-bottom: 5%;
+    line-height: 1.4;
+  }
+}
+
+.buttons {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  border: none;
+  background: none;
+  background-color: $brightBlue;
+  border-radius: 5%;
+  font-size: 10px;
+}
