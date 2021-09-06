@@ -14,6 +14,7 @@ $redHat: "Red Hat Display", sans-serif;
 
 body {
   font-family: $redHat;
+  font-size: 16px;
 }
 
 .container {
@@ -59,7 +60,7 @@ body {
   }
 
   p {
-    font-size: 10px;
+    font-size: 0.625rem; // Equivale a 10px
     color: $DesaturedBlue;
     margin-bottom: 5%;
     line-height: 1.4;
@@ -67,7 +68,7 @@ body {
 }
 
 .plan {
-  font-size: 10px;
+  font-size: 0.625rem; // Equivale a 10px
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -123,7 +124,7 @@ body {
   border: none;
   background: none;
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 0.625rem; // Equivale a 10px
   color: #fff;
   font-weight: 900;
   cursor: pointer;
