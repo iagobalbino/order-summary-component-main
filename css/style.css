@@ -37,7 +37,7 @@ body {
 }
 .summary p {
   font-size: 10px;
-  color: #878ea1;
+  color: #7280a7;
   margin-bottom: 5%;
   line-height: 1.4;
 }
@@ -47,6 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 10%;
 }
 .plan i {
   display: flex;
@@ -56,6 +57,7 @@ body {
   background-color: #e0e8ff;
   height: 25px;
   width: 25px;
+  color: #7280a7;
 }
 .plan span {
   display: block;
@@ -65,7 +67,7 @@ body {
   font-weight: 900;
 }
 .plan span:nth-child(2) {
-  color: #1f2f56;
+  color: #7280a7;
 }
 .plan a {
   font-weight: 900;
@@ -78,6 +80,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin-top: 5%;
 }
 
 .button {
@@ -85,11 +88,18 @@ body {
   width: 100%;
   border: none;
   background: none;
-  background-color: #3829e0;
-  border-radius: 5%;
+  border-radius: 5px;
   font-size: 10px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
+}
+
+.payment {
+  background: #3829e0;
+}
+
+.cancel {
+  color: #7280a7;
 }
 
 /*# sourceMappingURL=style.css.map */
