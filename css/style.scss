@@ -19,7 +19,11 @@ body {
 .container {
   height: 100vh;
   background-image: url(../images/pattern-background-desktop.svg);
-  background-size: cover;
+  // background-size: cover;
+  background-position: 0 -50%;
+  background-repeat: no-repeat;
+  background-color: $paleBlue;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,13 +34,15 @@ body {
   width: 250px;
   text-align: center;
   background-color: #fff;
-  border-radius: 5%;
+  border-radius: 10px;
+
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 
   .card-top {
     height: 30%;
     background-image: url(../images/illustration-hero.svg);
     background-size: cover;
-    border-radius: 5% 5% 0 0;
+    border-radius: 10px 10px 0 0;
   }
 
   .card-bottom {
@@ -96,6 +102,10 @@ body {
     font-weight: 900;
     text-decoration: underline;
   }
+
+  a:hover {
+    color: $DesaturedBlue;
+  }
 }
 
 .buttons {
@@ -116,12 +126,21 @@ body {
   font-size: 10px;
   color: #fff;
   font-weight: 900;
+  cursor: pointer;
 }
 
 .payment {
   background: $brightBlue;
 }
 
+.payment:hover {
+  background-color: $darkBlue;
+}
+
 .cancel {
   color: $DesaturedBlue;
+}
+
+.cancel:hover {
+  color: $brightBlue;
 }
